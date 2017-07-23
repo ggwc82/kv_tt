@@ -1,7 +1,10 @@
 {
   "name": "kv_tt",
   "version": "1.0.0",
-  "description": "",
+  "description": "kv tech test with reactjs, nodejs, express and mysqlite",
+  "engines": {
+    "node": "8.1.4"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
@@ -18,6 +21,7 @@
   },
   "homepage": "https://github.com/ggwc82/kv_tt#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "react-dev-utils": "^3.0.2"
   }
 }
